@@ -1,0 +1,13 @@
+clonar el repositorio del git
+git clone https://github.com/NefMamani/curso.git
+ell estado del proyecto
+git status
+añadir todos mis archivos a mi git local
+git add .
+cuando hacer commit
+git commit -m "JIRA-CODE algun comentario"
+
+comando push
+git push origin nameBranch
+
+
