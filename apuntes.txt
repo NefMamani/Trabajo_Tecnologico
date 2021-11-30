@@ -8,8 +8,15 @@ cuando hacer commit
 git commit -m "JIRA-CODE algun comentario"
 comando push
 git push origin nameBranch
-Comando para crear un branch
+Comando para crear un nuevo en el local branch
 git switch -c dev
-
+para no introducir el token cada que agamos un push
+git config credential.helper store
+git push https://<GITHUB_ACCES_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOS_NAME>
+usernname:<type your username>
+password:< type your password>
+Comando para actualizar
+git pull origin dev
+comando para moverse a otro branch
 
 
